@@ -18,7 +18,7 @@ const NewsBoard = ({category}) => {
   }, [category]);
 
   return (
-    <div>
+    <div className="text-center">
       <h2 className="text-center my-5">
         Latest{" "}
         <span>
